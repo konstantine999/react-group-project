@@ -1,10 +1,12 @@
 import "./App.css";
-import Section from "./Components/Bussiness/Bussiness"
+import Bussiness from "./Components/Bussiness/Bussiness"
+import WhyUs from "./Components/whyUs/WhyUs"
 
 function App() {
   return (
     <div>
-      <Section />
+      <Bussiness />
+      <WhyUs />
     </div>
   )
 }

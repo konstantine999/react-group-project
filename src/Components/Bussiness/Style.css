@@ -1,0 +1,125 @@
+.flex{
+    display: flex;
+}
+.firstButton{
+    background-color: #FACA10;
+    width: 157px;
+    height: 47px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-left: 35%;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.firstText{
+   font-weight: 400;
+   font-size: 18px;
+   margin-top: 40px;
+}
+.firstH2{
+    margin-top: 200px;
+    font-weight: 900;
+    font-size: 44px;
+}
+.conteiner{
+    width: 450px;
+    margin-left: 155px;
+}
+.backgroundColor{
+    background-color: #F2F2F2;
+}
+.secondH2{
+    text-align: center;
+    padding-top: 97px;
+    font-weight: 900;
+    font-size: 44px;
+}
+#conteinerForText{
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 28px;
+}
+#conteinerForText p {
+    font-size: 18px;
+    font-weight: 400;
+}
+.underLine{
+    position: relative;
+}
+.underLine::after{
+    position: absolute;
+    content: "";
+    height: 5px;
+    background-color: #FACA10;
+    bottom: 8px;
+    width: 100%;
+    left: 0;
+    z-index: -5;
+}
+.divForButtons{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.buttonForUs{
+    margin-left: 75px;
+}
+#firstButton{
+    margin-left: 0;
+}
+.buttonForUs{
+    width: 157px;
+    height: 48px;
+    border-radius: 5px;
+    border-color: #F6F6F6;
+    background-color: #FFFFFF;
+    color: #C4C4C4;
+    cursor: pointer;
+}
+.buttonForUs:hover{
+    background-color: #FACA10;
+    color: white;
+    transition: 0.4s;
+}
+.conteinerForBrending{
+    display: flex;
+    align-items: start;
+    margin: 0 auto;
+    max-width: 80%;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 60px;
+}
+.img2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.img3{
+    margin-left: 30px;
+    margin-top: 45px;
+}
+.divForBrendingText{
+    margin-top: 45px;
+    margin-left: 15px;
+    width: 450px;
+}
+.divForBrendingText h2{
+    font-weight: 700;
+    font-size: 30px;
+}
+.divForBrendingText p{
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 40px;
+}
+.divForBrendingText button{
+    margin-top: 30px;
+    width: 157px;
+    height: 48px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
