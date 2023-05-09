@@ -28,6 +28,7 @@
 }
 .backgroundColor{
     background-color: #F2F2F2;
+    padding-bottom: 100px;
 }
 .secondH2{
     text-align: center;
@@ -46,6 +47,7 @@
 }
 .underLine{
     position: relative;
+    z-index: 10;
 }
 .underLine::after{
     position: absolute;
@@ -121,5 +123,50 @@
     color: white;
     border-radius: 5px;
     cursor: pointer;
+}
+.thirdH2{
+    font-weight: 900;
+    font-size: 44px;
+    text-align: center;
+    margin-top: 100px;
+}
+.divForResearch{
+    max-width: 755px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.divForConteiner h3{
+    font-weight: 700;
+    font-size: 30px;
+}
+#divForResearch{
+    max-width: 375px;
+    margin-top: 15px;
+}
+.divForFlex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.divForConteiner button{
+    margin-top: 25px;
+    width: 157px;
+    height: 48px;
+    background-color: #FACA10;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+.divForConteiner{
+    margin-top: 30px;
+}
+.divForImg{
+    position: relative;
+}
+#img4{
+    position: absolute;
+    bottom: -50px;
+    left: -60px;
+    z-index: -5;
 }
 

@@ -26,7 +26,6 @@ function WhyUs(){
                     <button>Read More</button>
                 </div>
             </div>
-            <h1>sdasdad</h1>
         </div>
     )
 }
