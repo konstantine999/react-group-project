@@ -1,0 +1,120 @@
+.background {
+  width: 82%;
+  height: 650px;
+  position: absolute;
+}
+.people {
+  position: absolute;
+  border-radius: 37px;
+  height: 650px;
+  width: 60%;
+  margin-left: 40%;
+}
+.mainText {
+  position: relative;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-top: 176px;
+  padding-bottom: 120px;
+}
+.darckTitle {
+  width: 620px;
+  font-weight: 900;
+  font-size: 48px;
+  letter-spacing: 0.02em;
+  color: #1e1e1e;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+.lightText {
+  width: 437px;
+  font-size: 18px;
+  line-height: 176%;
+  letter-spacing: 0.02em;
+  color: #1e1e1e;
+}
+.FrustrationOfClient {
+  background-color: #fbfbfb;
+}
+.questions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  align-items: center;
+}
+.questionsDiv :last-child {
+  align-items: baseline;
+}
+.yellowQuestionMarks {
+  width: 14px;
+  height: 20px;
+}
+.FrustrationOfClientDivs {
+  display: flex;
+  padding-top: 100px;
+}
+.questionmarkimg{
+    width: 50%;
+}
+.leftFrustrationText {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  width: 50%;
+}
+.ellipse {
+  width: 50px;
+  height: 50px;
+  background: #f7f7f7;
+  box-shadow: 0px 10px 40px -12px rgba(250, 202, 16, 0.35);
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+.vectorLeft {
+  width: 7.5px;
+  height: 15px;
+  border: 2px solid #1e1e1e;
+}
+.arrowLeft {
+  width: 28.5px;
+  height: 27px;
+}
+.arrowRight {
+  width: 12.5px;
+  height: 27px;
+}
+.partnerBoxes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.shadowBox {
+  width: 240px;
+  height: 120px;
+  background: #f7f7f7;
+  opacity: 0.5;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.shadowBox:hover{
+    box-shadow: 0px 10px 20px rgba(5, 5, 5, 0.08);
+}
+.shadowBox :last-child {
+    padding: 28px;
+}
+.partners{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 50px;
+    text-align: center;
+}
+.windowsLogo{
+    padding-left: 90px;
+}
+.partners h3{
+    padding-left: 330px;
+}
