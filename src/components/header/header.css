@@ -1,0 +1,50 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 55px;
+  margin-top: 20px;
+  max-width: 1440px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 2px;
+}
+.logo{
+  margin-right: 146px;
+}
+.navbar li {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  list-style: none;
+}
+.navbar ul {
+  display: flex;
+  gap: 44px;
+}
+.navbar a {
+  text-decoration: none;
+  color: #1e1e1e;
+}
+.navbar li:hover {
+  border-bottom: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: #faca10;
+  border-top: -5px;
+}
+.yellowButton {
+  color: #ffffff;
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  background: #faca10;
+  border-radius: 5px;
+  width: 157px;
+  height: 44px;
+  border-style: none;
+  cursor: pointer;
+}
