@@ -1,14 +1,14 @@
 import "./main.css";
-import background from "../../images/firsPageBackground.png";
-import peope from "../../images/firsPageImg.png";
-import questionmarks from "../../images/questionmarks.png";
-import questionmarkimg from "../../images/questionmarkimg.png";
-import arrowLeft from "../../images/arrowLeft.png";
-import arrowRight from "../../images/arrowRight.png";
-import windowsLogo from "../../images/windows.png";
-import googleLogo from "../../images/google.png";
-import fireboxLogo from "../../images/firefox.png";
-import safariLogo from "../../images/safari.png";
+import background from "../../Images/firsPageBackground.png";
+import peope from "../../Images/firsPageImg.png";
+import questionmarks from "../../Images/questionmarks.png";
+import questionmarkimg from "../../Images/questionmarkimg.png";
+import arrowLeft from "../../Images/arrowLeft.png";
+import arrowRight from "../../Images/arrowRight.png";
+import windowsLogo from "../../Images/windows.png";
+import googleLogo from "../../Images/google.png";
+import fireboxLogo from "../../Images/firefox.png";
+import safariLogo from "../../Images/safari.png";
 
 function Main() {
   return (
@@ -57,7 +57,9 @@ function Main() {
                 </a>
               </div>
               <div className="shadowBox">
-                <a href="https://www.apple.com/ge/safari/"><img src={safariLogo} alt="safariLogo" /></a>
+                <a href="https://www.apple.com/ge/safari/">
+                  <img src={safariLogo} alt="safariLogo" />
+                </a>
               </div>
               <button className="ellipse">
                 <img src={arrowRight} alt="arrow" className="arrowRight" />

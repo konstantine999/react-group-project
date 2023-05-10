@@ -1,12 +1,12 @@
 import "./header.css";
-import imageOne from "../../images/logo.png";
+import imageOne from "../../Images/logo.png";
 
 function Header() {
   return (
     <header>
       <div className="container">
         <div className="navbar">
-          <img src={imageOne} alt="logo" className="logo"/>
+          <img src={imageOne} alt="logo" className="logo" />
           <ul>
             <a href="#">
               <li>Home</li>
