@@ -3,3 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+.flex {
+  display: flex;
+}
+@font-face {
+  font-family: "Lora";
+  src: url("./Fonts/Lora-Regular.ttf") format("ttf"),
+    url("./Fonts/Lora-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./Fonts/Nunito-Regular.ttf") format("ttf"),
+    url("./Fonts/Nunito-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.lora {
+  font-family: "Lora";
+}
+.nunito {
+  font-family: "Nunito";
+}
